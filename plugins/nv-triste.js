@@ -16,4 +16,8 @@ if
  (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = ',/media/triste.mp3'
 conn.sendPresenceUpdate('recording', m.chat)
-conn.sendMenssage(m.chat, { audio: { url: vn }, contextImfo: { "externalAdReply": {
+conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `👑 𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭 👑`, "body": `=> ᴀᴜᴅɪᴏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴏ`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://github.com/BrunoSobrino/TheMystic-Bot-MD`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
+handler.customPrefix = /sad/
+handler.command = /^(triste|me siento mal|tristeza|que triste|me siento triste|toy tite)/
+export derfaul handler
+*/
