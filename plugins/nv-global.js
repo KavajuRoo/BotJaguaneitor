@@ -344,6 +344,94 @@ handler.all = async function(m, {conn}) {
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   }
 
+  if (!chat.isBanned && m.text.match(/(123|uno|uno dos tres|1)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/123.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(anadie|ana10| a nadie| a na1o|anadiez|anadies)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/anadie.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(putos|phutos|hola putos|)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/putos.opus';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(triste|Triste|que triste|tristeza|toy tite|estoy triste|sad|estoy sad)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/triste.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(roñupata|te voy pegar|vas a ligar|mañana vas a ver| man|ejuese|ejuna)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/roñupata.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(sali del grupo|eliminale del grupo|)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './sali grupo.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(pipoka|ha,u pipoka|haupipoka|oje,u|pipoka oje,u|nde puerco)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/pipoka.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(alarma|sonar|remix)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/alarma.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(me pego|hay que denunciar|me golpeo|eso no se hace|esta mal)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/me pego.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(macanada|vyresa|vyrorei|mi galeria|lo que envian)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/'macanada.mp3;
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(gracioso|que comiste|simpatico|agraciado)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/gracioso.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
   if (!chat.isBanned && m.text.match(/(no digas eso papu)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
