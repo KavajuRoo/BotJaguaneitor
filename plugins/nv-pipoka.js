@@ -4,10 +4,10 @@ const handler = async (m, {conn}) => {
   //const s = seconds: '1934.4'
   const vn = './media/pipoka.mp3';
   conn.sendPresenceUpdate('recording', m.chat);
-  conn.sendMessage(m.chat, {audio: {url: vn}, ptt: true, mimetype: 'audio/mpeg', fileName: `a.mp3`}, {quoted: m});
+  conn.sendMessage(m.chat, {audio: {url: vn}, ptt: true, mimetype: 'audio/mpeg', fileName: `pipoka.mp3`}, {quoted: m});
 };
-handler.customPrefix = /pipoca|pipoka|eñembiso/
-handler.command = /^(pipoka|pipoc|ojo'u?$)/
+handler.customPrefix = /ª|a|A/
+handler.command = /^(a|ª|A?$)/
 export default handler;
 
 /*
