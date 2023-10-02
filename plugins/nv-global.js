@@ -248,10 +248,10 @@ handler.all = async function(m, {conn}) {
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   }
 
-  if (!chat.isBanned && m.text.match(/(rawr|Rawr|RAWR|raawwr|rraawr|rawwr)/gi)) {
+  if (!chat.isBanned && m.text.match(/(el were|mba'e ja'uta|ja'u|que vamos a tomar|te va a ser mal|me duele la cabeza|que rico)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
-    const vn = './media/rawr.mp3';
+    const vn = './media/el were.mp3';
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   }
