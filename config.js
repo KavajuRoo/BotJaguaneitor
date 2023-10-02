@@ -35,9 +35,9 @@ global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
 global.packname = '(☞ﾟ∀ﾟ)☞';
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.titulowm = '🐯 Jagua rete 🐯';
+global.author = '★🅹🅰🅶🆄🅰 ​ 🆁🅴🆃🅴★';
+global.wm = '★ᒍᗩGᑌᗩ - ᖇᕮTᕮ★';
+global.titulowm = '🐯 ᒍᗩGᑌᗩ ᖇᕮTᕮ 🐯';
 global.titulowm2 = `乂  ᒍᗩGᑌᗩ ᖇᕮTᕮ  乂`
 global.igfg = '★ĵλĢƲλ રετε★';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
